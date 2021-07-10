@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="go-btn start">
+      <h1 id="level-title">Click here to start the game</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="red" class="btn red"></div>
+
+      </div>
+
+      <div class="row">
+
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+
+      </div>
+
+    </div>
+    <div class="rules">
+      <h2>Rules :</h2>
+      <div class="inner-block">
+        <ul>
+          <li>Simon will light up one of the button, accompanied by a tone.</li>
+          <li>Repeat that signal by touching the button of the same color.</li>
+          <li>Simon will add one more signal.</li>
+          <li>Repeat those two signals in the same order.</li>
+          <li>Simon will continue to add one.</li>
+          <li>Continue to repeat the process as long as you can!</li>
+        </ul>
+      </div>
+    </div>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
